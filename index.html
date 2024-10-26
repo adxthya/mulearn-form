@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0"
+    />
+    <link
+      rel="stylesheet"
+      href="./style.css"
+    />
+    <title>Mulearn-Form</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="input-container">
+        <p class="title">Sign Up</p>
+        <form action="#">
+          <div class="input">
+            <label for="username">Username</label>
+            <input
+              name="username"
+              type="text"
+              placeholder="Username"
+              required
+            />
+          </div>
+          <div class="input">
+            <label for="email">Email</label>
+            <input
+              name="email"
+              type="email"
+              placeholder="Email"
+              required
+            />
+          </div>
+          <div class="input">
+            <label for="password">Password</label>
+            <input
+              type="password"
+              name="password"
+              placeholder="Password"
+              required
+            />
+          </div>
+          <div class="input">
+            <label for="confirmPassword">Confirm Password</label>
+            <input
+              type="password"
+              name="confirmPassword"
+              placeholder="Confirm Password"
+              required
+            />
+          </div>
+          <button type="submit">Sign Up</button>
+        </form>
+        <div class="error-message">
+          <p>Something went wrong. Please try again.</p>
+        </div>
+      </div>
+    </div>
+    <script src="./script.js"></script>
+  </body>
+</html>
